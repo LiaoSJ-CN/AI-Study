@@ -1,6 +1,6 @@
 ---
 path: Superpowers 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-coding
 tags: [superpowers, methodology, tdd, brainstorming]
 created: 2026-06-20
@@ -183,7 +183,7 @@ git clone https://github.com/obra/superpowers.git ~/.claude/plugins/superpowers
 
 ---
 
-## 我的评估(2026-06-20)
+## 工具评估(2026-06-20)
 
 ✅ **优势**
 - 方法论非常扎实,适合工程师"宁愿慢不要错"的心态

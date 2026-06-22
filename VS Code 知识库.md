@@ -1,6 +1,6 @@
 ---
 path: VS Code 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: tool
 tags: [vscode, editor, ai-extension, copilot]
 created: 2026-06-20

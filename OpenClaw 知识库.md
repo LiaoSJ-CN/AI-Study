@@ -1,6 +1,6 @@
 ---
 path: OpenClaw 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-coding
 tags: [openclaw, gateway, runtime, workboard, mcp]
 created: 2026-06-20
@@ -9,7 +9,7 @@ updated: 2026-06-20
 
 # OpenClaw 知识库
 
-> OpenClaw 是杰哥的主力 AI 助手运行时，把所有聊天、Agent、技能、记忆、自动化任务统一到一个 Gateway。本文件是命令清单 + 工作区结构 + v2026.6.8 用法的整合版。
+> OpenClaw 是一款 AI 助手运行时，把所有聊天、Agent、技能、记忆、自动化任务统一到一个 Gateway。本文件是命令清单 + 工作区结构 + v2026.6.8 用法的整合版。
 
 **当前版本**：OpenClaw **2026.6.8 (844f405)**
 **Gateway 状态**：LaunchAgent loaded · running · pid 754
@@ -412,7 +412,7 @@ openclaw acp --reset-session
 | `secrets audit` | 审计明文密钥、未解析引用、优先级漂移 |
 | `secrets apply` | 应用已生成的密钥计划 |
 
-> 杰哥当前已迁移到 file-provider SecretRef（`~/.openclaw/secrets.json` 600 权限）。
+> 推荐部署：file-provider SecretRef（`~/.openclaw/secrets.json`，600 权限）。
 
 ### `openclaw approvals`
 
@@ -511,7 +511,7 @@ openclaw commitments done <id>
 **升级经验**（来自 MEMORY）：
 - launchd 管理的 gateway 下 `update.run` 走 managed-service handoff 会失灵（SIGUSR1 不是退出信号）
 - 可行流程：写 launcher 轮询 PID → `nohup launcher.sh &; disown` → `launchctl stop ai.openclaw.gateway` → launchd KeepAlive=true 自动拉起新版本
-- 杰哥当前：v2026.6.6 → v2026.6.8 已成功（plist 已重装）
+- 升级示例：v2026.6.6 → v2026.6.8（plist 已重装）
 
 ---
 
@@ -717,7 +717,7 @@ _完整文档：[https://docs.openclaw.ai/cli](https://docs.openclaw.ai/cli) —
 
 **设计目标**：把"复杂多步任务"拆解成可追踪、可编排、可审计的卡片系统。
 
-**状态**：✅ 杰哥当前已启用，70/96 plugin enabled。
+**状态**：✅ 已启用插件：70/96。
 
 ---
 
@@ -890,7 +890,7 @@ Workboard **不替代** `sessions_spawn`，而是**互补**：
 
 ### 10. 推荐配置
 
-**杰哥当前默认 board**：`default`（1 个 agent，0 个 board 多余）
+**默认 board**：`default`（1 个 agent，0 个 board 多余）
 
 **何时建多 board**：
 - 多项目并行（每个项目一个 board）

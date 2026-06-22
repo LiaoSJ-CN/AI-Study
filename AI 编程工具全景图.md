@@ -1,6 +1,6 @@
 ---
 path: AI 编程工具全景图.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: index
 tags: [ai, tools, panorama]
 created: 2026-06-20
@@ -9,11 +9,11 @@ updated: 2026-06-20
 
 # AI 编程工具全景图
 
-> 把杰哥当前在用的 8 个 AI 编程工具(OpenClaw / Claude Code / OpenCode / Hermes / ECC / Superpowers / Agent Skills / CodeGraph)放到一张图上,说清**谁做什么、不做什么、何时用谁**。
+> 把当前 8 个主流 AI 编程工具(OpenClaw / Claude Code / OpenCode / Hermes / ECC / Superpowers / Agent Skills / CodeGraph)放到一张图上,说清**谁做什么、不做什么、何时用谁**。
 
 **更新日期**:2026-06-22(新增 Agent Skills)
 **最后完整刷新**:2026-06-20
-**目标读者**:杰哥(也适合其他多 harness 玩家)
+**目标读者**:多 harness 玩家(同时使用多个 AI 编程工具的开发者)
 
 ---
 

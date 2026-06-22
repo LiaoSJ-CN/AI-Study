@@ -1,6 +1,6 @@
 ---
 path: CodeGraph 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-coding
 tags: [codegraph, mcp, knowledge-graph, local-search]
 created: 2026-06-20
@@ -203,12 +203,12 @@ agent 启用 MCP 后,行为自动变化:
 
 ---
 
-## 我的评估(2026-06-20)
+## 工具评估(2026-06-20)
 
 ✅ **优势**
 - **解决真问题**:Claude Code 探索代码库的 token 浪费是公认的痛
 - **MCP-native**:跟整个 AI 编程生态走同一个协议
-- **本地优先**:适合杰哥这种对数据敏感的人(私密项目、企业代码)
+- **本地优先**:适合对数据敏感的开发者(处理敏感项目、商业代码)
 - **多 harness**:不只是 Claude Code,Cursor/Codex/OpenCode/Hermes/Kiro 都能用
 - **集成成本低**:三步装好,后续全自动
 

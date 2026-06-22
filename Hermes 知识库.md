@@ -1,6 +1,6 @@
 ---
 path: Hermes 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-coding
 tags: [hermes, nous-research, self-evolution, gepa]
 created: 2026-06-20
@@ -173,7 +173,7 @@ hermes -c
 hermes -c "会话名称"
 
 # 方式 5：单次查询（不进入交互，问完即走）
-hermes -z "帮我查下深圳天气"
+hermes -z "查询上海天气"
 ```
 
 ### Web 交互界面

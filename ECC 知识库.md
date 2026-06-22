@@ -1,6 +1,6 @@
 ---
 path: ECC 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-coding
 tags: [ecc, everything-claude-code, agents, marketplace]
 created: 2026-06-20
@@ -152,7 +152,7 @@ ecc uninstall
 
 ---
 
-## 我的评估(2026-06-20)
+## 工具评估(2026-06-20)
 
 ✅ **优势**
 - 覆盖面最广,日常 driver 配置首选

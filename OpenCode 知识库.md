@@ -1,6 +1,6 @@
 ---
 path: OpenCode 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-coding
 tags: [opencode, multi-provider, terminal-agent]
 created: 2026-06-20
@@ -378,7 +378,7 @@ Tauri 重构,内存占用从 400MB 降到 80MB,启动速度 +5x。
 | 需要丰富 plugin 生态 | ⚠️ 起步 | ✅ |
 | macOS 原生体验 | ✅ Tauri | ✅ |
 
-**杰哥当前配置**:
+**典型配置组合**:
 - Claude Code 主力(严肃项目)
 - OpenCode 备用(模型对比/跑国产模型)
 

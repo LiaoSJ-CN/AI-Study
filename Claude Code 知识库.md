@@ -1,6 +1,6 @@
 ---
 path: Claude Code 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-coding
 tags: [claude-code, anthropic, terminal-agent, subagent, hooks]
 created: 2026-06-20
@@ -9,7 +9,7 @@ updated: 2026-06-20
 
 # Claude Code 学习知识库
 
-> Claude Code 是 Anthropic 推出的 AI 编程助手,在终端里跑,直接读写代码、执行命令、管理项目。杰哥主力编程工具。
+> Claude Code 是 Anthropic 推出的 AI 编程助手,在终端里跑,直接读写代码、执行命令、管理项目。主流 AI 编程工具之一。
 
 **当前版本**:Claude Code **2.1.81**
 **安装路径**:`~/.npm-global/bin/claude`
@@ -568,7 +568,7 @@ User: "用 auto mode 把这个 PR 修到 CI 通过"
 
 ## 十四、与其他工具的协同
 
-杰哥当前技术栈:
+典型技术栈组合:
 
 ```
 ┌─────────────────────────────────┐

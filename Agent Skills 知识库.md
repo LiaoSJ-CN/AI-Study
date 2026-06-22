@@ -1,6 +1,6 @@
 ---
 path: Agent Skills 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-coding
 tags: [agent-skills, addy-osmani, google, skill-framework, engineering-practice]
 created: 2026-06-22
@@ -253,7 +253,7 @@ agent-skills/
 - ❌ 不想被 slash command 约束(它会在每个上下文自动激活)
 - ❌ 跟现有 SOP 冲突(企业可能有自己的合规流程)
 
-### 跟杰哥现有栈的关系
+### 跟现有栈的协同关系
 
 | 现有工具 | 关系 |
 |---------|------|

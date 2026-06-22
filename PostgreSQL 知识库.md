@@ -1,6 +1,6 @@
 ---
 path: PostgreSQL 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: data
 tags: [postgresql, oltp, pgvector, sql]
 created: 2026-06-20

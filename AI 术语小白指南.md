@@ -1,6 +1,6 @@
 ---
 path: AI 术语小白指南.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: intro
 tags: [ai, beginner, glossary]
 created: 2026-06-20

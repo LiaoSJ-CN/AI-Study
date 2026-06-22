@@ -1,6 +1,6 @@
 ---
 path: AI 数据智能开源项目 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-data
 tags: [db-gpt, ragflow, dify, opensource, ai-data]
 created: 2026-06-20
@@ -318,7 +318,7 @@ NL2SQL Handbook: https://github.com/HKUSTDial/NL2SQL_Handbook
 - RAGFlow(深度文档)
 - Dify(企业级落地,中文文档齐全)
 
-### 四、推荐组合(2026-06 杰哥向)
+### 四、推荐组合(2026-06 实战向)
 
 **通用 RAG**:`RAGFlow` + `Dify`(前者文档深,后者工作流)
 

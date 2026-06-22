@@ -1,6 +1,6 @@
 ---
 path: Skill 系统对比.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: comparison
 tags: [skills, openclaw, claude-code, ecc, hermes]
 created: 2026-06-20
@@ -182,14 +182,14 @@ description: 触发条件(不依赖特定工具)
 
 ## 推荐策略
 
-### 杰哥当前情况
+### 典型使用场景
 
 - 76 个 OpenClaw skill(47 ready)
 - 0 个 Claude Code skill(还没用 marketplace)
 - 装 ECC 后会注入 271 个
 - Hermes skill 还没单独装
 
-### 我的建议
+### 实战建议
 
 1. **OpenClaw skill 留作主仓**:`~/.openclaw/skills/` 是 single source of truth
 2. **Claude Code 走软链** `ln -sf` 到 `~/.claude/skills/`
@@ -199,7 +199,7 @@ description: 触发条件(不依赖特定工具)
 ### 不要做的事
 
 - ❌ 每个 harness 都装同一份独立 skill(4 份副本,改一处忘改其他)
-- ❌ 在 skill 里 hardcode `/Users/liaosj/...` 路径(换机器坏)
+- ❌ 在 skill 里 hardcode `/Users/<user>/...` 路径(换机器坏)
 - ❌ 在 skill 里 hardcode 工具名(不能跨 harness)
 
 ---

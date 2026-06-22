@@ -1,6 +1,6 @@
 ---
 path: NL2SQL 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: ai-data
 tags: [nl2sql, text-to-sql, rag, semantic-layer]
 created: 2026-06-20
@@ -384,7 +384,7 @@ Result Formatter（结果格式化）
 - **DB-GPT 0.7 文档**：https://docs.dbgpt.cn
 - **WrenAI 实战**：https://www.getwren.ai
 
-### 七、给杰哥的建议
+### 七、实战建议
 
 1. 你的 data-model-designer skill 已经覆盖了语义层思路（指标定义、维度建模）
 2. 如果要做 NL2SQL 项目：

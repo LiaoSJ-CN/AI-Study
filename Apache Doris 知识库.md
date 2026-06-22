@@ -1,6 +1,6 @@
 ---
 path: Apache Doris 知识库.md
-workspace: ~/Documents/lsj-Obsidian/AI学习/
+workspace: ~/Documents/obsidian/ai-study/
 category: data
 tags: [doris, olap, lakehouse, iceberg]
 created: 2026-06-20
